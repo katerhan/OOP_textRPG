@@ -1,0 +1,23 @@
+﻿<Window x:Class="textRPG.Story"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:textRPG"
+        mc:Ignorable="d"
+        Title="Story" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/ddumeah-14912c21-4bb2-44da-894b-de61264b38ac.png"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="964" Margin="464,0,0,0" VerticalAlignment="Top" Width="549" Source="/janika.png"/>
+
+        <TextBlock x:Name="txtblStory" Margin="20,27,0,0" Text="Trojice se procházela trhy a v jednu chvíli se od dívek Deran oddělil, aby je mohl sledovat z davu. Pokud je někdo opravdu sledoval, na dvě dívky si spíš troufne. Píšťaličku samozřejmě instruoval. Měla za úkol opustit společně s rusalkou zalidněnější část ulice a zamířit někam, kde bylo málo očí." TextWrapping="Wrap" Padding="10,10,10,10" ScrollViewer.CanContentScroll="True" Foreground="White" FontSize="18" FontFamily="Montserrat" Height="328" VerticalAlignment="Top" HorizontalAlignment="Left" Width="444">
+            <TextBlock.Background>
+                <SolidColorBrush Color="Black" Opacity="0.6"/>
+            </TextBlock.Background>
+        </TextBlock>
+        <Button x:Name="BtnNext" Content="DALŠÍ" Margin="20,360,0,0" FontSize="20" BorderBrush="#FF304D36" Background="#FFDAD8AA" FontFamily="Montserrat" Foreground="#FF304D36" FontWeight="Bold" Click="BtnNext_Click" Height="42" VerticalAlignment="Top" HorizontalAlignment="Left" Width="444"/>
+
+    </Grid>
+</Window>

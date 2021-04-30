@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Content\janika.png" />
+    <None Remove="ddumeah-14912c21-4bb2-44da-894b-de61264b38ac.png" />
+    <None Remove="janika.png" />
+    <None Remove="uvodka.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Content\ddumeah-14912c21-4bb2-44da-894b-de61264b38ac.png" />
+    <Resource Include="Content\janika.png" />
+    <Resource Include="ddumeah-14912c21-4bb2-44da-894b-de61264b38ac.png" />
+    <Resource Include="janika.png" />
+    <Resource Include="uvodka.jpg" />
+  </ItemGroup>
+
+</Project>

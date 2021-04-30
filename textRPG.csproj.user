@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="CharaMake.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Combat.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Story.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Intoduction.txt">
+      <SubType>Component</SubType>
+    </None>
+    <None Update="Stories\chap1storyline1.txt">
+      <SubType>Component</SubType>
+    </None>
+    <None Update="Stories\Story1chapter.txt">
+      <SubType>Component</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CharaMake.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Combat.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Story.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
